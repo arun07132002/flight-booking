@@ -1,0 +1,109 @@
+:root {
+    --PrimeryColor: hsl(225, 50%, 48%);
+    --secoundaryColor: hsl(180, 17%, 95%);
+    --secoundaryColor1: hsl(180, 84%, 26%);
+    --colorOne: hsl(15, 74%, 70%);
+    --colorTwo: hsl(28, 100%, 82%);
+    --hoverColor: hsl(225, 56%, 54%);
+    --whiteColor: hsl(0, 0%, 100%);
+    --blackColor: hsl(0, 0%, 12%);
+    --textColor: hsl(240, 1%, 48%);
+    --borderColor: hsl(0, 0%, 83%);
+    --WhiteColorDeam: hsl(0, 0%, 93%);
+    --greyBg: hsl(0, 0%, 96%);
+    --greyText: rgb(145, 145, 145);
+    --inputColor: hsl(330, 12%, 97%);
+    --boxShadow: box-shadow:rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    --transition: .4s ease-in-out;
+  
+  }
+
+/* search section style=====================================> */
+.search {
+    .searchContainer {
+      width: 100%;
+      padding: 1.5rem;
+      border: 2px solid var(--greyBg);
+      border-radius: 16px;
+      row-gap: 2rem;
+    }
+  
+    .btns {
+      background: var(--secoundaryColor);
+      padding: .5rem;
+      border-radius: 1rem;
+      flex-direction: column;
+      margin: auto;
+    }
+  
+    .singleBtn {
+      padding: .8rem 1.5rem;
+      font-size: 16px;
+      border-radius: 3rem;
+      width: 80%;
+      text-align: center;
+  
+      &:hover {
+        background-color: var(--PrimeryColor);
+        color: var(--whiteColor);
+        font-weight: 100;
+        transition: .4s ease;
+      }
+    }
+  
+    .searchInputs {
+      width: 100%;
+      justify-content: center;
+      gap: 1.5rem;
+    }
+  
+    .singleInput {
+      .iconDiv {
+        padding: 16px 10px;
+        border-radius: 3rem;
+        background: var(--secoundaryColor);
+        margin-right: 1rem;
+  
+        .icon {
+          color: var(--blackColor);
+          opacity: .7rem;
+        }
+      }
+  
+      .texts {
+        h4 {
+          padding-top: 0;
+          padding-bottom: .7rem;
+          color: var(--blackColor);
+          font-weight: 700;
+        }
+      }
+    }
+  
+    .input {
+      width: 95%;
+      border: none;
+      outline: none;
+      background: transparent;
+      color: white;
+    }
+  
+    .input::placeholder {
+      font-size: 10px;
+      opacity: .95;
+      color: aqua;
+    }
+  
+    .active {
+      background-color: var(--PrimeryColor);
+      color: var(--whiteColor);
+      font-weight: 500;
+    }
+  
+    .btnBlock {
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      background-color: black;
+    }
+  }

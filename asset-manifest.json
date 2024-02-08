@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/flight-booking/static/css/main.4db27adf.css",
+    "main.js": "/flight-booking/static/js/main.a4172f61.js",
+    "static/js/787.fa9cb370.chunk.js": "/flight-booking/static/js/787.fa9cb370.chunk.js",
+    "static/media/logo-video.mp4": "/flight-booking/static/media/logo-video.02aa75e65e2ddb398641.mp4",
+    "static/media/gridImage.png": "/flight-booking/static/media/gridImage.bc1b51b818abf20a10ed.png",
+    "static/media/logo.png": "/flight-booking/static/media/logo.41c61eb2eebef54b7a2c.png",
+    "static/media/jerman.jpg": "/flight-booking/static/media/jerman.0eed94ae3b5ba0be7265.jpg",
+    "static/media/australia.jpg": "/flight-booking/static/media/australia.37c8b0d7412bd544668f.jpg",
+    "static/media/london.jpg": "/flight-booking/static/media/london.e535a7cd0474ab691d3d.jpg",
+    "static/media/singapore.jpg": "/flight-booking/static/media/singapore.ee13c2fa58a403202997.jpg",
+    "static/media/service_2.jpg": "/flight-booking/static/media/service_2.baa05a9d0cbbf2b65c66.jpg",
+    "static/media/service_1.jpg": "/flight-booking/static/media/service_1.95d7d6a8a44f8f228581.jpg",
+    "index.html": "/flight-booking/index.html",
+    "main.4db27adf.css.map": "/flight-booking/static/css/main.4db27adf.css.map",
+    "main.a4172f61.js.map": "/flight-booking/static/js/main.a4172f61.js.map",
+    "787.fa9cb370.chunk.js.map": "/flight-booking/static/js/787.fa9cb370.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4db27adf.css",
+    "static/js/main.a4172f61.js"
+  ]
+}
